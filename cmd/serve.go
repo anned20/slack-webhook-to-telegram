@@ -101,6 +101,8 @@ func formatMessage(payload IncomingPayload) string {
 		"~": "\\~",
 		"`": "\\`",
 		".": "\\.",
+		"(": "\\(",
+		")": "\\)",
 	}
 
 	for key, value := range toReplace {
